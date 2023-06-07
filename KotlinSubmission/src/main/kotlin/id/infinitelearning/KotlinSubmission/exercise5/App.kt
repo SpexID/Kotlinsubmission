@@ -10,10 +10,6 @@ fun main() {
      *
      */
 var hero = Hero()
-    var nama = hero.name
-    var umur = hero.age
-    var tinggi = hero.height
-    var kesehatan = hero.health
 
     /**
      * Latihan 2
