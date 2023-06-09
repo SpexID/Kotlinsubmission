@@ -23,8 +23,8 @@ fun myProfile() {
  *  Lengkapi fungsi di bawah ini agar dapat mencetak nilai dari parameter-parameter yang ada dengan fungsi println
  */
 fun groupDetail(groupId: Int, groupMember: List<Any>, session: String): Any {
-val list = groupMember.toList()
-    println("kami grup = "+groupId+ ", dari sesi = "+ session+ ", dengan anggota = "+list)
+
+    println("kami grup = "+groupId+ ", dari sesi = "+ session+ ", dengan anggota = "+groupMember)
     return arrayOf(groupId, groupMember, session)
 }
 
@@ -40,6 +40,9 @@ fun myGroup(): String {
     for (i in 0..listgrup.size-1)
     {
         namaanggota += "\n"+(i+1)+"."+listgrup[i]
+        if(listgrup[i] == "Adi"){
+            namaanggota += ", ini saya"
+        }
     }
     return namaanggota
 }

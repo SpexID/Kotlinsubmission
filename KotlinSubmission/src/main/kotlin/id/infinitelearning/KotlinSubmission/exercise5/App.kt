@@ -32,7 +32,7 @@ hero.profile()
     Challenge:
     Group 1: jalan 5x, lari 2x, makan 3x, minum 1x, lompat 3x, duduk 1x
     Group 2: jalan 2x, lari 2x, makan 1x, minum 3x, lompat 1x, duduk 2x
-    Group 3: jalan 3x, lari 1x, makan 5x, minum 1x, lompat 5x, duduk 3x //saya grup 3 dengan ibu peja
+    Group 3: jalan 3x -1, lari 1x -2 , makan 5x +2 , minum 1x +2 , lompat 5x -2, duduk 3x+2  //saya grup 3 dengan ibu peja
     Group 4: jalan 5x, lari 4x, makan 4x, minum 4x, lompat 3x, duduk 2x
     Group 5: jalan 4x, lari 1x, makan 3x, minum 5x, lompat 5x, duduk 3x
     Group 6: jalan 2x, lari 4x, makan 2x, minum 2x, lompat 7x, duduk 4x
@@ -50,6 +50,11 @@ hero.profile()
     var minum = 1
     var lompat = 5
     var duduk = 3
+//    * lari = -2
+//    * makan = +2
+//    * minum = +2
+//    * lompat = -2
+//    * duduk = +1
     var i = 0
     while (i<jalan){
     hero.jalan()

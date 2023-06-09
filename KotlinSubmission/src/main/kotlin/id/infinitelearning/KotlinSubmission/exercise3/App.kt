@@ -16,8 +16,9 @@ fun main() {
     - Isi variabel result dengan nilai: 'Anda mendapatkan nilai E.'
      */
     // Buat di bawah sini
-    var score: Int = 79
+    var score = readLine()!!.toInt()
     var result: String= ""
+
 if (score >= 90){
     result = "Selamat! Anda mendapatkan nilai A."
 }
